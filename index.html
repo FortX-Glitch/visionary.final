@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon"> <!-- Chemin mis à jour pour l'icône -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Visionary</h1>
+            <nav>
+                <ul><!-- Pop-ups de statut -->
+       <!--             <li><a href="#">Accueil</a></li> 
+                    <li><a href="#features">Info</a></li>
+                    <li><a href="#download">contact</a></li>
+                </ul>
+                <button class="menu-toggle">Menu</button> -->
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 </h2>
+            <p></p>
+            <button id="scrollToTop" title="Remonter en haut">▲</button>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Tout savoir sur nous</h2>
+            <div class="feature-item">
+                <h3>Passion et expertise</h3>
+                <p>Notre équipe est composée de professionnels passionnés qui mettent leur expertise au service de votre satisfaction.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Innovation constante</h3>
+                <p>Nous nous engageons à rester à la pointe des tendances et des technologies pour offrir des solutions innovantes à nos clients.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Engagement durable</h3>
+                <p>Nous croyons en un développement responsable et adoptons des pratiques durables pour contribuer à un avenir meilleur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Comment nous contacter</h2>
+            <p></p>
+            <ul>
+                <li>Mail : visionary.pro@outlook.com</li>
+                <li>Numero de téléphone : 06/51/06/37/98</li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="videoPopup" class="video-popup">
+        <div class="video-popup-content">
+            <iframe id="videoIframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="close-button">&times;</div>
+        </div>
+    </div>
+
+    <!-- Pop-ups de statut -->
+    <div id="serverProblemPopup" class="status-popup server-problem-popup">
+        <span class="close-button">&times;</span>
+        <h3>Problème avec le serveur</h3>
+        <p>Nous rencontrons actuellement un problème avec notre serveur. Nous travaillons à le résoudre.</p>
+    </div>
+
+    <div id="serverClosedPopup" class="status-popup server-closed-popup">
+        <span class="close-button">&times;</span>
+        <h3>Serveurs fermés</h3>
+        <p>Les serveurs sont actuellement fermés. Merci de revenir plus tard.</p>
+    </div>
+
+    <div id="updatePopup" class="status-popup update-popup">
+        <span class="close-button">&times;</span>
+        <h3>Mise à jour prévue</h3>
+        <p>Une nouvelle mise à jour est prévue pour le <span id="updateDate">11 septembre 2024 à 15h00</span>. Restez à l'écoute pour plus d'informations.</p>
+    </div>
+
+    <footer>
+        <p>&copy; Visionary. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
